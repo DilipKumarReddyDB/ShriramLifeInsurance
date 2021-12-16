@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="ShriramLifeInsurance.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <form>
+            <div class="office-use-only">
+                <p class="section-name">Office Use only</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8">
+                            <div>
+                                <label for="proposalNo">Proposal No : </label>
+                                <input id="proposalNo" type="text"/>
+                                
+                                <label for="policyNo">& Policy No : </label>
+                                <input id="policyNo" type="text"/>
+                            </div>
+                            <div>
+                                <label for="customerId">Customer ID : </label>
+                                <input id="customerId" type="text"/>
+                            
+                                <label for="inwardDate">Inward Date : </label>
+                                <input id="inwardDate" type="date"/>
+                            </div>
+                            <div>
+                                <label for="deptReceiptNo">Dept. Receipt No : </label>
+                                <input id="deptReceiptNo" type="text"/>
+                                
+                                <label for="date">& Date : </label>
+                                <input id="date" type="date"/>
+                            </div>
+                        </div>
+                        <div class="col-4"></div>
+                    </div>  
+                </div>
+            </div>
+
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading">GUIDELINES FOR FILLING UP THE PROPOSAL FORM</h1>
+                        <p>1. Insurance is a contract of utmost good faith which requires the proposal and the life to be assured to disclose alt material facts in response to the questions in the proposal forth. Before filling up the form, please read the product brochure so that you fully understand the benefits of the product, as well as the terms and conditions.</p>
+                        <p>2. Please Fill in BLOCK LETTERS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div col-12>
+                        <h1 class="section-heading mb-4">1. Details of life to be assured:</h1>
+                        <div class="mb-3">
+                            <label for="lifeAssuredName" class="mr-2">Name : </label>
+                            <input id="lifeAssuredName" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <span class="mr-2">Gender : </span>
+                            <input id="lifeAssuredGenderMale" name="life_assured_gender" type="checkbox" value="Male"/>
+                            <label for="lifeAssuredGenderMale" class="mr-3">Male</label>
+                            <input id="lifeAssuredGenderFemale" name="life_assured_gender" type="checkbox" value="Female"/>
+                            <label for="lifeAssuredGenderFemale">Female</label>
+                        </div>
+                        <div class="mb-3">
+                            <span class="mr-2">Nationality : </span>
+                            <input id="lifeAssuredNationalityIndia" name="life_assured_nationality" type="checkbox" value="Indian"/>
+                            <label for="lifeAssuredNationalityIndia" class="mr-3">Indian</label>
+                            <input id="lifeAssuredNationalityNRI" name="life_assured_nationality" type="checkbox" value="NRI"/>
+                            <label for="lifeAssuredNationalityNRI">NRI</label>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredEducation">Educational Qualification : </label>
+                            <input id="lifeAssuredEducation" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredFathersName">Fathers Name : </label>
+                            <input id="lifeAssuredFathersName" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredAgeProofSubmitted">Age Proof Submitted(Specify) : </label>
+                            <input id="lifeAssuredAgeProofSubmitted" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredDOB"><span style="font-weight: bold;">a.</span> Date of Birth : </label>
+                            <input id="lifeAssuredDOB" type="date" class="mr-5"/>
+                            <label for="lifeAssuredAge">Age : </label>
+                            <input id="lifeAssuredAge" type="number"/>
+                            <span>(as on last birthday)</span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredOccupation"><span style="font-weight: bold;">b.</span> Occupation : </label>
+                            <input id="lifeAssuredOccupation" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredNatureOfDuties">Nature of Duties : </label>
+                            <input id="lifeAssuredNatureOfDuties" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredNameOfEmployer">Name of present employer : </label>
+                            <input id="lifeAssuredNameOfEmployer" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredAnnualIncome"><span style="font-weight: bold;">c.</span> Annual income (in Rs) : </label>
+                            <input id="lifeAssuredAnnualIncome" type="text"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredNameOfEmployer">Name of present employer : </label>
+                            <input id="lifeAssuredNameOfEmployer" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredAnnualIncomeSource">Source : </label>
+                            <input id="lifeAssuredAnnualIncomeSource" type="text" size="100"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lifeAssuredPANCardNo">PAN Card No : </label>
+                            <input id="lifeAssuredPANCardNo" type="text" size="10"/>
+                        </div>
+                        <div class="mb-5">
+                            <label for="lifeAssuredAdhaarNo">Adhaar No : </label>
+                            <input id="lifeAssuredAdhaarNo" type="text" size="12"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">2. Details of Proposer (if other than life to be assured):</h1>
+                        <div class="mb-3">
+                            <label for="proposerName" class="mr-2">Name of the proposer if other than Life to be Assured : </label>
+                            <input id="proposerName" type="text" size="80"/>
+                        </div>
+                        <div class="mb-5">
+                            <label for="proposerRelationshipWithLifeAssured" class="mr-2">Relationship with Life to be assured : </label>
+                            <input id="proposerRelationshipWithLifeAssured" type="text" size="80"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">3. Address of the Proposer:</h1>
+                    </div>
+                    <div class="col-6">
+                        <table>
+                            <tr>
+                                <td><label for="proposerAddressDNoSt" class="mr-2">D No:/St: </label></td>
+                                <td><input id="proposerAddressDNoSt" type="text" width="100%"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressArea" class="mr-2">Area: </label></td>
+                                <td><input id="proposerAddressArea" type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressLandmark" class="mr-2">Landmark: </label></td>
+                                <td><input id="proposerAddressLandmark" type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressCityDistrict" class="mr-2">City / District: </label></td>
+                                <td><input id="proposerAddressCityDistrict" type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressState" class="mr-2">State: </label></td>
+                                <td><input id="proposerAddressState" type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressPin" class="mr-2">PIN: </label></td>
+                                <td><input id="proposerAddressPin" type="text"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressContactNo" class="mr-2">Contact No: </label></td>
+                                <td><input id="proposerAddressContactNo" type="number"/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="proposerAddressEmailId" class="mr-2">Email Id: </label></td>
+                                <td><input id="proposerAddressEmailId" type="email"/></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-6">
+                        <h5 style="text-align: center;">Funds Opted</h5>
+                        <table width="100%" style="text-align: center;">
+                            <tr>
+                                <td>Name of the Fund</td>
+                                <td>Percentage(%)</td>
+                            </tr>
+                            <tr>
+                                <td><input class="ml-0"/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">4. Plan Details:</h1>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <table>
+                            <tr>
+                                <td>Policy term</td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td>Premium paying term</td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td>Mode of premium payment</td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td>Sum proposed</td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td>Installment premium</td>
+                                <td><input/></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-6">
+                        <table>
+                            <tr>
+                                <td style="text-align: center;" colspan="2">Particulars of Amount Deposited</td>
+                            </tr>
+                            <tr>
+                                <td>Cash/DD/Cheque no:</td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td>Date:</td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td>Bank Name:</td>
+                                <td><input/></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-12">
+                        <table>
+                            <tr>
+                                <td style="text-align: center;" colspan="3">ULIP</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Auto Transfer Option</td>
+                                <td class="mr-2"><label>Yes</label><input type="checkbox"/></td>
+                                <td><label>If Yes</label><input type="checkbox"/><span>6 Months</span></td>
+                            </tr>
+                            <tr>
+                                <td><label>No</label><input type="checkbox"/></td>
+                                <td><input type="checkbox"/><label>12 Months</label></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="col-12">
+                        <table class="mb-5">
+                            <tr>
+                                <td>Name of Rider</td>
+                                <td>Sum Proposed</td>
+                                <td>Rider Term</td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <h1 class="section-heading mb-4">5. Are you existing customer in Shriram? :</h1>
+                        <label>If yes, give details Loan/Ticket/Certificate No. </label>
+                        <input>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">6. Nominee Details :</h1>
+                        <div>
+                            <label>Name of the Nominee : </label>
+                            <input>
+                        </div>
+                        <div>
+                            <label>Age : </label>
+                            <input>
+                        </div>
+                        <div>
+                            <label>Relationship with Life to be Assured : </label>
+                            <input>
+                        </div>
+                        <h1 class="section-heading mb-4">   Appointee Details(If the Nominee is a minor) :-</h1>
+                        <div>
+                            <label>Name of the Appointee: </label>
+                            <input>
+                        </div>
+                        <div>
+                            <label>Address for communication : </label>
+                            <textarea></textarea>
+                        </div>
+                        <div class="mb-5">
+                            <label>Acceptance of the Appointee: </label>
+                            <input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">7. Has your application for revival of your lapsed life insurance policy been rejected ? :</h1>
+                        <label>If yes, give reasons</label>
+                        <input>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <h1 class="section-heading mb-4">8. Please give details of your existing life insurance policy with any life insurance company ?</h1>
+                        <table>
+                            <tr>
+                                <td>Name of Company</td>
+                                <td>Sum Insured</td>
+                                <td>Year in which policy was taken</td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                            <tr>
+                                <td><input/></td>
+                                <td><input/></td>
+                                <td><input/></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">9. Family History: Please give details of the family members of the Life to be assured.</h1>
+                        <table>
+                            <tr>
+                                <td>Family Member</td>
+                                <td>If alive, age</td>
+                                <td>If dead, age at death</td>
+                            </tr>
+                            <tr>
+                                <td>Father</td>
+                                <td><input></td>
+                                <td><input></td>
+                            </tr>
+                            <tr>
+                                <td>Mother</td>
+                                <td><input></td>
+                                <td><input></td>
+                            </tr>
+                            <tr>
+                                <td>Brothers</td>
+                                <td><input></td>
+                                <td><input></td>
+                            </tr>
+                            <tr>
+                                <td>Sisters</td>
+                                <td><input></td>
+                                <td><input></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading mb-4">10. </h1>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
