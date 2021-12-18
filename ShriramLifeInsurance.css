@@ -1,3 +1,8 @@
+.border-init{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+}
 .section-heading{
     font-size: 20px;
     text-decoration: underline;
