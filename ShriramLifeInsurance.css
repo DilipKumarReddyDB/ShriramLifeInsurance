@@ -8,9 +8,7 @@
     text-decoration: underline;
     font-weight: 600;
 }
-.input-td{
-    width:100%;
-}
+
 table, th, td {
     border: 1px solid black;
   }
@@ -52,21 +50,26 @@ table, th, td {
     border-right: hidden;
     border-left: hidden;
 }
-.table-ip{
-    border-style: none;
-}
-.life-to-be-assured-ip{
+
+
+.underlined-ip{
     border-style: solid;
     border-width: 1px;
     border-top: none;
     border-left: none;
     border-right: none;
 }
+.no-border-ip{
+    border-style: none;
+}
+.full-width-ip{
+    width:100%;
+}
 .ulip-table{
     border: 1px solid black;
 }
 .td-no-border{
-    border: none;
+    border-style: none;
 }
 
 .custom-box{
